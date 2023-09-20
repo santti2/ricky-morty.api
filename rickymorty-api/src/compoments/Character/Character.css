@@ -1,0 +1,25 @@
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-auto-rows: minmax(100px, auto);
+  gap: 1rem;
+  background-color:darkslategray    
+  
+}
+.contenedor2{
+    display: flex;
+    justify-content: space-between;
+    border: solid black 5px;
+    background-color: burlywood;
+}
+.columna1{
+    margin-left: 5%;
+}
+.muertoovivo{
+    color:white
+}
+.nombres:hover{
+    color: gold;
+  }
+
+
