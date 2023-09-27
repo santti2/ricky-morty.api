@@ -1,25 +1,75 @@
 .contenedor{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-  grid-auto-rows: minmax(100px, auto);
-  gap: 1rem;
-  background-color:darkslategray    
-  
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em; 
+  padding: 3.0rem;
+  list-style: none;
 }
+  
 .contenedor2{
     display: flex;
-    justify-content: space-between;
-    border: solid black 5px;
-    background-color: burlywood;
+    justify-content: left;
+    background-color: #3C3E44;
+    border-radius: 15px;
 }
 .columna1{
-    margin-left: 5%;
+    padding-left: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    font-family: Segoe UI;    
 }
 .muertoovivo{
-    color:white
+    color:white;
+    font-weight: 500;
 }
 .nombres:hover{
-    color: gold;
-  }
-
-
+    color: rgb(255, 152, 0)
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(25vh - 30px);
+    font-size: 100px;
+    font-family: Segoe UI; 
+    color: rgb(32, 35, 41);
+    font-weight: 900;
+}
+body{
+    background-color: white;
+    margin: 0%;
+}
+.fondo2{
+   background: rgb(39, 43, 51);
+}
+.imagenes{
+    height: 200px;
+}
+.nombres{
+    color:white;
+    font-size: 800;
+    font-weight: 800;
+}
+.subtitulos{
+    color: rgb(158, 158, 158);
+    font-weight: 500;
+}
+.Primeravez{
+    color:white;
+}
+.UltimaLocalizacion{
+    color: white;
+}
+.interlineado1{
+    line-height: 0.2;
+}
+.interlineado2{
+    line-height: 0.5;
+}
+.interlineado3{
+    line-height: 0.5;
+}
+img{
+    border-top-left-radius: 10% ;
+    border-bottom-left-radius: 10%;
+}
